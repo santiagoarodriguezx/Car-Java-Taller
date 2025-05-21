@@ -5,6 +5,42 @@ public class SistemaFrenos {
     private String tieneABS;
     private String estado;
 
+    
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public String getTipoDiscos() {
+        return tipoDiscos;
+    }
+
+    public void setTipoDiscos(String tipoDiscos) {
+        this.tipoDiscos = tipoDiscos;
+    }
+
+    public String getTieneABS() {
+        return tieneABS;
+    }
+
+    public void setTieneABS(String tieneABS) {
+        this.tieneABS = tieneABS;
+    }
+
+    public String getEstado() {
+        return estado;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+
+    public SistemaFrenos() {}
+
     // Constructor
     public SistemaFrenos(String tipo, String tipoDiscos, String tieneABS, String estado) {
         this.tipo = tipo;

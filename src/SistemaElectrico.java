@@ -4,6 +4,33 @@ public class SistemaElectrico {
     private String tipoLuces;
     private int numSensores;
 
+
+    // Getters and Setters
+    public String getTipoBateria() {
+        return tipoBateria;
+    }
+
+    public void setTipoBateria(String tipoBateria) {
+        this.tipoBateria = tipoBateria;
+    }
+
+    public String getTipoLuces() {
+        return tipoLuces;
+    }
+
+    public void setTipoLuces(String tipoLuces) {
+        this.tipoLuces = tipoLuces;
+    }
+
+    public int getNumSensores() {
+        return numSensores;
+    }
+
+    public void setNumSensores(int numSensores) {
+        this.numSensores = numSensores;
+    }
+    public SistemaElectrico() {}
+    
     // Constructor
     public SistemaElectrico(String tipoBateria, String tipoLuces, int numSensores) {
         this.tipoBateria = tipoBateria;

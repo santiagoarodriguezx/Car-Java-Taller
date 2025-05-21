@@ -4,6 +4,32 @@ public class Transmision {
     private int marchas;
     private String traccion;
 
+    // getters and Setters
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public int getMarchas() {
+        return marchas;
+    }
+
+    public void setMarchas(int marchas) {
+        this.marchas = marchas;
+    }
+
+    public String getTraccion() {
+        return traccion;
+    }
+
+    public void setTraccion(String traccion) {
+        this.traccion = traccion;
+    }
+    public Transmision() {} // Default constructor
     // Constructor
     public Transmision(String tipo, int marchas, String traccion) {
         this.tipo = tipo;
